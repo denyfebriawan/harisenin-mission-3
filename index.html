@@ -4,6 +4,302 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>videobelajar | Home</title>
   </head>
-  <body></body>
+  <body class="bg-blue-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-10">
+      <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-4">
+        <a href="index.html" class="text-xl font-bold text-blue-600">videobelajar</a>
+        <div class="flex items-center gap-6">
+          <a href="#" class="text-sm font-medium text-gray-600 hover:text-blue-600">Kategori</a>
+          <img src="https://i.pravatar.cc/40?img=12" alt="User avatar" class="w-9 h-9 rounded-full border-2 border-blue-200" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="relative bg-gradient-to-br from-blue-900 to-blue-700 text-white overflow-hidden">
+      <img src="https://picsum.photos/seed/hero-learning/1200/500" alt="" class="absolute inset-0 w-full h-full object-cover opacity-20" />
+      <div class="relative max-w-6xl mx-auto px-4 py-20 text-center">
+        <h1 class="text-3xl sm:text-4xl font-extrabold max-w-2xl mx-auto leading-tight">Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video Interaktif!</h1>
+        <p class="text-blue-100 max-w-xl mx-auto mt-4">Tersedia ratusan video pembelajaran dari mentor berpengalaman untuk mengembangkan kariermu dan mencapai potensi terbaikmu.</p>
+        <a href="#courses" class="inline-block mt-8 bg-cyan-400 text-blue-900 font-semibold px-6 py-3 rounded-full hover:bg-cyan-300 transition-colors"> Temukan Video Course untuk Kamu! </a>
+      </div>
+    </section>
+
+    <!-- Course collection -->
+    <section id="courses" class="max-w-6xl mx-auto px-4 py-16">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl font-bold text-gray-800">Koleksi Video Pembelajaran Unggulan</h2>
+        <p class="text-gray-500 mt-2">Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!</p>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-3 mb-10">
+        <button class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium">Semua Kategori</button>
+        <button class="px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-600 text-sm font-medium hover:border-blue-300">Perencanaan</button>
+        <button class="px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-600 text-sm font-medium hover:border-blue-300">Desain</button>
+        <button class="px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-600 text-sm font-medium hover:border-blue-300">Pengembangan Diri</button>
+        <button class="px-4 py-2 rounded-full bg-white border border-gray-200 text-gray-600 text-sm font-medium hover:border-blue-300">Bisnis</button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course1/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Bisnis</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Big 4 Auditor Financial Analyst</h3>
+            <p class="text-sm text-gray-500 mt-1">Materi berkualitas dari profesional berpengalaman yang siap membimbing kamu.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=32" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Jenna Ortega</p>
+                <p class="text-gray-400">Senior Accountant</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.9 <span class="text-gray-400 font-normal">(1,309)</span></span>
+              <span class="font-bold text-blue-700">Rp 300K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course2/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Bisnis</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Dasar-Dasar Akuntansi untuk Pemula</h3>
+            <p class="text-sm text-gray-500 mt-1">Pelajari pembukuan dan laporan keuangan dari nol bersama praktisi berpengalaman.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=15" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Michael Chen</p>
+                <p class="text-gray-400">Financial Consultant</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.7 <span class="text-gray-400 font-normal">(856)</span></span>
+              <span class="font-bold text-blue-700">Rp 250K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course3/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">Perencanaan</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Strategi Negosiasi Bisnis Efektif</h3>
+            <p class="text-sm text-gray-500 mt-1">Kuasai teknik negosiasi yang dipakai para pemimpin perusahaan multinasional.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=47" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Sarah Williams</p>
+                <p class="text-gray-400">Business Strategist</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.8 <span class="text-gray-400 font-normal">(642)</span></span>
+              <span class="font-bold text-blue-700">Rp 350K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course4/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Bisnis</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Excel Mahir untuk Analisis Data</h3>
+            <p class="text-sm text-gray-500 mt-1">Bangun laporan dan dashboard rapi dengan rumus dan pivot table tingkat lanjut.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=8" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">David Kim</p>
+                <p class="text-gray-400">Data Analyst</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.6 <span class="text-gray-400 font-normal">(1,102)</span></span>
+              <span class="font-bold text-blue-700">Rp 200K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course5/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">Perencanaan</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Manajemen Proyek Agile & Scrum</h3>
+            <p class="text-sm text-gray-500 mt-1">Terapkan kerangka kerja Agile untuk menjalankan proyek tim secara efisien.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=25" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Amanda Torres</p>
+                <p class="text-gray-400">Project Manager</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.9 <span class="text-gray-400 font-normal">(789)</span></span>
+              <span class="font-bold text-blue-700">Rp 400K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course6/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-green-600 bg-green-50 px-2 py-1 rounded-full">Pengembangan Diri</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Menulis Kreatif untuk Pemula</h3>
+            <p class="text-sm text-gray-500 mt-1">Temukan gaya menulismu sendiri dan bangun kebiasaan menulis setiap hari.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=41" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Rio Pratama</p>
+                <p class="text-gray-400">Content Writer</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.5 <span class="text-gray-400 font-normal">(334)</span></span>
+              <span class="font-bold text-blue-700">Rp 150K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course7/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-pink-600 bg-pink-50 px-2 py-1 rounded-full">Desain</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Visualisasi Data dengan Power BI</h3>
+            <p class="text-sm text-gray-500 mt-1">Ubah data mentah menjadi dashboard interaktif yang mudah dipahami.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=44" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Lisa Anderson</p>
+                <p class="text-gray-400">Data Visualization Lead</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.8 <span class="text-gray-400 font-normal">(567)</span></span>
+              <span class="font-bold text-blue-700">Rp 320K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course8/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-green-600 bg-green-50 px-2 py-1 rounded-full">Pengembangan Diri</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Public Speaking untuk Profesional</h3>
+            <p class="text-sm text-gray-500 mt-1">Bangun kepercayaan diri tampil dan menyampaikan gagasan di depan umum.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=53" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">James Wilson</p>
+                <p class="text-gray-400">Communication Coach</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.7 <span class="text-gray-400 font-normal">(923)</span></span>
+              <span class="font-bold text-blue-700">Rp 275K</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
+          <img src="https://picsum.photos/seed/course9/400/240" alt="Course thumbnail" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Bisnis</span>
+            <h3 class="font-semibold text-gray-800 mt-3">Manajemen Keuangan Pribadi</h3>
+            <p class="text-sm text-gray-500 mt-1">Rencanakan anggaran, tabungan, dan investasi untuk masa depan yang lebih aman.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <img src="https://i.pravatar.cc/32?img=29" alt="Instructor" class="w-7 h-7 rounded-full" />
+              <div class="text-xs">
+                <p class="font-medium text-gray-700">Nadia Putri</p>
+                <p class="text-gray-400">Financial Planner</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+              <span class="text-sm text-amber-500 font-medium">★ 4.6 <span class="text-gray-400 font-normal">(498)</span></span>
+              <span class="font-bold text-blue-700">Rp 180K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="relative bg-blue-800">
+      <img src="https://picsum.photos/seed/newsletter-bg/1200/400" alt="" class="absolute inset-0 w-full h-full object-cover opacity-25" />
+      <div class="relative max-w-2xl mx-auto px-4 py-16 text-center">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Mau Belajar Lebih Banyak?</h2>
+        <p class="text-blue-100 mt-3">Dapatkan akses ke ribuan video pembelajaran dari berbagai bidang ilmu.</p>
+        <form class="flex flex-col sm:flex-row gap-3 mt-8 max-w-md mx-auto">
+          <input
+            type="email"
+            placeholder="Masukkan email kamu"
+            class="flex-1 rounded-full px-5 py-3 text-sm bg-white text-gray-800 placeholder-gray-400 border border-transparent focus:outline-none focus:ring-2 focus:ring-cyan-300"
+            required
+          />
+          <button type="submit" class="bg-cyan-400 text-blue-900 font-semibold px-6 py-3 rounded-full hover:bg-cyan-300 transition-colors">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-950 text-blue-100">
+      <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div class="lg:col-span-2">
+          <p class="text-xl font-bold text-white mb-3">videobelajar</p>
+          <p class="text-sm text-blue-200 leading-relaxed">
+            Bali Botanical Garden Kompleks Ubud,<br />
+            Jl. Raya Ubud No. 3, Ubud, Bali, Indonesia
+          </p>
+          <p class="text-sm text-blue-200 mt-2">+62-123-456-789</p>
+          <div class="flex gap-3 mt-5">
+            <a href="#" class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center hover:bg-blue-800">f</a>
+            <a href="#" class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center hover:bg-blue-800">ig</a>
+            <a href="#" class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center hover:bg-blue-800">tw</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="font-semibold text-white mb-3">Kategori</p>
+          <ul class="space-y-2 text-sm text-blue-200">
+            <li><a href="#" class="hover:text-white">Digital & Teknologi</a></li>
+            <li><a href="#" class="hover:text-white">Pemasaran</a></li>
+            <li><a href="#" class="hover:text-white">Manajemen Bisnis</a></li>
+            <li><a href="#" class="hover:text-white">Pengembangan Diri</a></li>
+            <li><a href="#" class="hover:text-white">Desain</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-semibold text-white mb-3">Perusahaan</p>
+          <ul class="space-y-2 text-sm text-blue-200">
+            <li><a href="#" class="hover:text-white">Tentang Kami</a></li>
+            <li><a href="#" class="hover:text-white">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-semibold text-white mb-3">Bantuan</p>
+          <ul class="space-y-2 text-sm text-blue-200">
+            <li><a href="#" class="hover:text-white">Akun Saya</a></li>
+            <li><a href="#" class="hover:text-white">Cara Pembelian</a></li>
+            <li><a href="#" class="hover:text-white">FAQ</a></li>
+            <li><a href="#" class="hover:text-white">Kebijakan Privasi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-blue-900 py-4 text-center text-xs text-blue-300">&copy; 2026 videobelajar. All Rights Reserved.</div>
+    </footer>
+  </body>
 </html>
